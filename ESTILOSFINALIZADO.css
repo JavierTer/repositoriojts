@@ -1,0 +1,160 @@
+
+
+body{
+background:#F4EDEE	;
+box-sizing: border-box;
+font-family: 'Bitter-Regular';
+}
+.container-principal
+{
+  width: 320px;
+}
+
+.logo {
+
+margin: auto;
+width: 100%;
+margin-bottom: 16px;
+border: solid 2px #F38127;
+}
+
+.main-nav-top ul {
+padding-left: 0;
+
+}
+.main-nav-bottom ul {
+padding-left: 0;
+
+}
+
+.main-nav-top ul li{
+  list-style: none;
+  background: #FC4437;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  margin-top: 4px;
+  text-transform: capitalize;
+  padding-top: 5px;
+  border: solid 2px white;
+  font-family:sans-serif;
+}
+.main-nav-bottom ul li{
+  list-style: none;
+  background: #FC4437;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  margin-top: 4px;
+  text-transform: capitalize;
+  padding-top: 5px;
+  border: solid 2px white;
+
+}
+
+h1
+{
+  background: #FC4437;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-transform: capitalize;
+  color:white;
+    border: solid 2px white;
+}
+
+.main-nav-top ul li a{
+  text-decoration: none;
+  color:white;
+
+
+}
+.main-nav-bottom ul li a{
+  text-decoration: none;
+  color:white;
+
+
+}
+
+.division
+{
+  height: 1px;
+  border: solid 2px #F38127;
+  margin-bottom: 16px;
+  margin : auto;
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+}
+
+@media (min-width: 726px)
+{
+  .logo
+  {
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 5px;
+
+  }
+
+  .container-principal
+  {
+    width: 780px;
+}
+.main-nav-top ul li{
+  display: inline-block;
+  width: 24%;
+  text-align: center;
+  text-transform: capitalize;
+
+}
+.main-nav-bottom ul li{
+  display: inline-block;
+  width: 49%;
+  text-align: center;
+  text-transform: capitalize;
+
+}
+
+h1 {
+  width: 99.5%;
+}
+
+.container-principal
+  {
+    width: 96%;
+    margin: auto;
+
+}
+
+.buscador {
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: right;
+
+  text-transform: capitalize;
+  color:white;
+  margin-top: 5px;
+
+
+}
+
+.grilla ul{
+  padding-right: 110px;
+  font-family:inherit;
+}
+
+.arriba {
+  width: 90%;
+  text-align: right;
+}
+
+
+@media (min-width: 726px){
+ .arriba {
+  display: flex;
+  justify-content:flex-end;
+}
+}
